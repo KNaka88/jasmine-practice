@@ -18,8 +18,13 @@ describe('Users factory', function() {
 
   // A set of tests for our Users.all() method
   describe('.all()', function() {
+
     it('should exist', function() {
       expect(Users.all).toBeDefined();
+    });
+
+    it('should return a hard-coded list of users', function() {
+      expect(Users.all()).toEqual(userList);
     });
   });
 });
