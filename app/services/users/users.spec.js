@@ -15,4 +15,11 @@ describe('Users factory', function() {
   it('should exist', function() {
     expect(Users).toBeDefined();
   });
+
+  // A set of tests for our Users.all() method
+  describe('.all()', function() {
+    it('should exist', function() {
+      expect(Users.all).toBeDefined();
+    });
+  });
 });
