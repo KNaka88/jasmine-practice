@@ -36,7 +36,7 @@
       ];
 
       Users.all = function() {
-
+        return userList;
       };
 
       return Users;
