@@ -58,4 +58,10 @@ describe('Users factory', function() {
       expect(Users.all()).toEqual(userList);
     });
   });
+
+  describe('.findById()', function() {
+    it('should exist', function() {
+      expect(Users.findById).toBeDefine();
+    });
+  });
 });
