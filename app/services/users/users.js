@@ -39,6 +39,10 @@
         return userList;
       };
 
+      Users.findById = function() {
+
+      };
+
       return Users;
     });
 })();
