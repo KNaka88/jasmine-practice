@@ -39,8 +39,10 @@
         return userList;
       };
 
-      Users.findById = function() {
-
+      Users.findById = function(id) {
+        return userList.find(function(user) {
+          return user.id === id;
+        });
       };
 
       return Users;
