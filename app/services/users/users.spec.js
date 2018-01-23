@@ -61,7 +61,7 @@ describe('Users factory', function() {
 
   describe('.findById()', function() {
     it('should exist', function() {
-      expect(Users.findById).toBeDefine();
+      expect(Users.findById).toBeDefined();
     });
   });
 });
