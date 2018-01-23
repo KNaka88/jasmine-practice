@@ -5,6 +5,10 @@
     .factory('Users', function() {
       var Users = {};
 
+      Users.all = function() {
+
+      };
+
       return Users;
     });
 })();
